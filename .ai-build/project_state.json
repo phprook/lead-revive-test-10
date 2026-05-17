@@ -1,0 +1,135 @@
+{
+  "projectName": "lead-revive-test-10",
+  "projectIdea": "Build a simple real estate lead follow-up landing page with a headline, short explanation, lead form, and clear call to action",
+  "status": "plan_approved_ready_for_feature_001",
+  "currentFeatureIndex": 0,
+  "features": [
+    {
+      "id": "FEATURE_001",
+      "name": "Basic landing page structure",
+      "goal": "Create the first public landing page with a clear real estate lead follow-up message.",
+      "done_when": [
+        "Homepage loads at /",
+        "Page includes a clear headline",
+        "Page includes a short explanation of the offer",
+        "Page includes a visible call-to-action area",
+        "Layout is usable on desktop and mobile"
+      ],
+      "do_not_do": [
+        "Do not add form validation yet",
+        "Do not add backend storage",
+        "Do not add authentication",
+        "Do not add property listings",
+        "Do not add CRM or email integrations"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "FEATURE_002",
+      "name": "Lead capture form UI",
+      "goal": "Add a simple lead form so visitors can provide contact information and real estate interest.",
+      "done_when": [
+        "Form includes full name field",
+        "Form includes email field",
+        "Form includes phone field",
+        "Form includes interest type selection with Buying, Selling, Both, and Not sure options",
+        "Form includes optional message field",
+        "Form includes a clear submit button"
+      ],
+      "do_not_do": [
+        "Do not submit to a backend",
+        "Do not add Supabase",
+        "Do not add email notifications",
+        "Do not add advanced validation beyond basic field structure"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "FEATURE_003",
+      "name": "Client-side form validation",
+      "goal": "Prevent unusable form submissions with simple browser-side validation.",
+      "done_when": [
+        "Full name is required",
+        "At least one contact method is required: email or phone",
+        "Email format is validated when email is entered",
+        "Interest type is required",
+        "Helpful error messages appear near the form",
+        "Invalid submissions do not show the success state"
+      ],
+      "do_not_do": [
+        "Do not add server-side validation",
+        "Do not add database storage",
+        "Do not add CAPTCHA",
+        "Do not add complex validation libraries unless already present"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "FEATURE_004",
+      "name": "Form submission success state",
+      "goal": "Show a clear confirmation after a valid form submission.",
+      "done_when": [
+        "Valid form submission shows a thank-you message",
+        "Success message confirms that follow-up will happen soon",
+        "Form is either hidden or reset after successful submission",
+        "No backend request is made",
+        "The visitor understands the next step"
+      ],
+      "do_not_do": [
+        "Do not save submissions permanently",
+        "Do not send emails",
+        "Do not integrate with CRM",
+        "Do not add admin review screens"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "FEATURE_005",
+      "name": "Trust and conversion enhancements",
+      "goal": "Improve visitor confidence and make the landing page more persuasive without adding complexity.",
+      "done_when": [
+        "Page includes 2 to 3 short benefit bullets",
+        "Page includes a no-pressure reassurance message",
+        "Page includes a privacy reassurance near the form",
+        "Content remains concise and focused on the lead form",
+        "Mobile layout remains clean"
+      ],
+      "do_not_do": [
+        "Do not add testimonials unless real approved copy is provided",
+        "Do not add fake reviews",
+        "Do not add property search",
+        "Do not add multiple pages",
+        "Do not make the page feel like a full real estate website"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "FEATURE_006",
+      "name": "Basic SEO and metadata",
+      "goal": "Add basic page metadata so the landing page is polished and shareable.",
+      "done_when": [
+        "Page has a relevant title",
+        "Page has a concise meta description",
+        "Metadata matches the landing page purpose",
+        "No unnecessary SEO tooling is added"
+      ],
+      "do_not_do": [
+        "Do not add a blog",
+        "Do not add advanced analytics",
+        "Do not add sitemap automation unless already available",
+        "Do not add schema markup unless specifically approved"
+      ],
+      "status": "pending"
+    }
+  ],
+  "approvedPlan": true,
+  "lastCommand": "/approveidea",
+  "lastQuestion": null,
+  "lastAnswer": null,
+  "lastChangeRequest": null,
+  "lastChangeImpact": null,
+  "designChecklistApproved": false,
+  "lastDesignChecklistFile": null,
+  "updatedAt": "2026-05-17T07:13:21.883Z",
+  "localPath": "/home/ubuntu/ai-builds/lead-revive-test-10"
+}
