@@ -5,5 +5,6 @@
   "pid": 73825,
   "logFile": "/home/ubuntu/ai-builds/lead-revive-test-10/.ai-build/logs/active-feature-20260517154317.log",
   "startedAt": "2026-05-17T15:43:17.180Z",
-  "status": "running"
+  "status": "completed",
+  "completedAt": "2026-05-17T16:10:18.775Z"
 }
