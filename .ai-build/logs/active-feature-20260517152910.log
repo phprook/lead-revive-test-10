@@ -1,0 +1,6 @@
+Active feature log created: /home/ubuntu/ai-builds/lead-revive-test-10/.ai-build/logs/active-feature-20260517152910.log
+Project: lead-revive-test-10
+Feature: FEATURE_005 - Trust and conversion enhancements
+
+=== RUNNING CLAUDE ===
+FEATURE_005 built. Added three benefit bullets and a no-pressure reassurance line to `src/app/page.tsx`, plus a privacy reassurance under the submit button in `src/app/LeadForm.tsx`. `npx next build` passes. Report written to `.ai-build/last_build_report.md`.

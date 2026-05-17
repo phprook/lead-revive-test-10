@@ -1,9 +1,9 @@
 {
   "projectName": "lead-revive-test-10",
-  "featureId": "FEATURE_004",
-  "featureName": "Form submission success state",
-  "pid": 72843,
-  "logFile": "/home/ubuntu/ai-builds/lead-revive-test-10/.ai-build/logs/active-feature-20260517152236.log",
-  "startedAt": "2026-05-17T15:22:36.460Z",
+  "featureId": "FEATURE_005",
+  "featureName": "Trust and conversion enhancements",
+  "pid": 73360,
+  "logFile": "/home/ubuntu/ai-builds/lead-revive-test-10/.ai-build/logs/active-feature-20260517152910.log",
+  "startedAt": "2026-05-17T15:29:10.702Z",
   "status": "running"
 }

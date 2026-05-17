@@ -14,21 +14,22 @@ PROJECT IDEA: Build a simple real estate lead follow-up landing page with a head
 
 CURRENT FEATURE:
 {
-  "id": "FEATURE_004",
-  "name": "Form submission success state",
-  "goal": "Show a clear confirmation after a valid form submission.",
+  "id": "FEATURE_005",
+  "name": "Trust and conversion enhancements",
+  "goal": "Improve visitor confidence and make the landing page more persuasive without adding complexity.",
   "done_when": [
-    "Valid form submission shows a thank-you message",
-    "Success message confirms that follow-up will happen soon",
-    "Form is either hidden or reset after successful submission",
-    "No backend request is made",
-    "The visitor understands the next step"
+    "Page includes 2 to 3 short benefit bullets",
+    "Page includes a no-pressure reassurance message",
+    "Page includes a privacy reassurance near the form",
+    "Content remains concise and focused on the lead form",
+    "Mobile layout remains clean"
   ],
   "do_not_do": [
-    "Do not save submissions permanently",
-    "Do not send emails",
-    "Do not integrate with CRM",
-    "Do not add admin review screens"
+    "Do not add testimonials unless real approved copy is provided",
+    "Do not add fake reviews",
+    "Do not add property search",
+    "Do not add multiple pages",
+    "Do not make the page feel like a full real estate website"
   ],
   "status": "pending"
 }
@@ -112,7 +113,7 @@ FULL ROADMAP:
       "Do not integrate with CRM",
       "Do not add admin review screens"
     ],
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": "FEATURE_005",

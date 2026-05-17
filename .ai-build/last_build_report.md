@@ -1,42 +1,43 @@
-# Build report — FEATURE_004: Form submission success state
+# Build report — FEATURE_005: Trust and conversion enhancements
 
 ## Summary
-Implemented a thank-you confirmation state that replaces the lead capture form
-after a valid submission. The form clears its fields and a styled status panel
-explains that a local agent will follow up within one business day. No backend
-calls, persistence, email, or CRM integrations were added.
-
-## Context note
-The previous "Build FEATURE_001/003" commits only modified
-`.ai-build/project_state.json` — they never touched `src/`. The repository
-still contained the stock `create-next-app` template, so the landing page,
-lead form, and client-side validation had to be implemented from scratch in
-order for the success state to have something to attach to.
+Added trust and conversion elements to the landing page: three short
+benefit bullets, a no-pressure reassurance line below the intro, and a
+privacy reassurance with a small lock icon directly beneath the form's
+submit button. No new pages, libraries, or backend logic.
 
 ## Files changed
-- `src/app/page.tsx` — replaced the default template with the real estate
-  lead follow-up landing page (headline, short explanation, lead form mount).
-- `src/app/LeadForm.tsx` *(new)* — client component containing the lead
-  capture form, client-side validation, and the new success state.
+- `src/app/page.tsx` — added a 3-item benefit bullet list and a
+  no-pressure reassurance line beneath the intro copy. Removed the
+  duplicate "no pressure" phrase from the intro paragraph so the
+  reassurance message has a single, dedicated line.
+- `src/app/LeadForm.tsx` — added a small privacy reassurance line
+  (with an inline lock icon) immediately below the submit button.
 
 ## Done-when checks
-- ✅ Valid form submission shows a thank-you message (`role="status"`,
-  `aria-live="polite"` confirmation panel).
-- ✅ Success message confirms that follow-up will happen soon ("A local
-  agent will reach out within one business day…").
-- ✅ Form is hidden on success and field state is reset so a re-open starts
-  fresh; a "Send another request" action toggles back to the form.
-- ✅ No backend request is made — `handleSubmit` only calls `preventDefault`
-  and updates local React state.
-- ✅ Next step is explicit: the visitor is told who will reach out, on which
-  channels (inbox / phone), and on what timeline.
+- ✅ Page includes 3 short benefit bullets (local agent knowledge,
+  straight answers, visitor stays in control).
+- ✅ Page includes a no-pressure reassurance message
+  ("No pressure, no obligation — just a real conversation whenever it
+  fits your timing.").
+- ✅ Page includes a privacy reassurance near the form
+  ("Your details are only used to follow up about your real estate
+  goals. We never sell or share your information.") rendered inside
+  the form, right under the submit button.
+- ✅ Content remains concise and focused on the lead form — only short
+  copy was added, no new sections or pages.
+- ✅ Mobile layout remains clean — bullets use a simple flex list
+  inside the existing `max-w-2xl` section; privacy line uses small
+  text with an icon and wraps naturally.
 
 ## Do-not-do checks
-- ✅ Nothing is persisted (no `localStorage`, no DB, no fetch).
-- ✅ No emails sent.
-- ✅ No CRM integration.
-- ✅ No admin review screens.
+- ✅ No testimonials added.
+- ✅ No fake reviews.
+- ✅ No property search.
+- ✅ Still a single page (`/`).
+- ✅ The page still reads as a focused lead-capture landing page, not
+  a full real estate website (no nav, no listings, no extra sections).
 
 ## Verification
-- `npx next build` — compiles successfully, types pass, `/` prerenders as
-  static content.
+- `npx next build` — compiles successfully, types pass, `/`
+  prerenders as static content.

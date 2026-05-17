@@ -209,6 +209,24 @@ export default function LeadForm() {
       >
         Request a follow-up
       </button>
+      <p className="flex items-start gap-2 text-xs text-zinc-500 dark:text-zinc-400">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 20 20"
+          fill="currentColor"
+          aria-hidden="true"
+          className="mt-0.5 h-4 w-4 flex-none"
+        >
+          <path
+            fillRule="evenodd"
+            d="M10 1.5a4 4 0 0 0-4 4V8H5a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6a2 2 0 0 0-2-2h-1V5.5a4 4 0 0 0-4-4Zm2.5 6.5V5.5a2.5 2.5 0 0 0-5 0V8h5Z"
+            clipRule="evenodd"
+          />
+        </svg>
+        <span>
+          Your details are only used to follow up about your real estate goals. We never sell or share your information.
+        </span>
+      </p>
     </form>
   );
 }
