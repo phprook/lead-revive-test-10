@@ -1,0 +1,8 @@
+Active feature log created: /home/ubuntu/ai-builds/lead-revive-test-10/.ai-build/logs/active-feature-20260517152236.log
+Project: lead-revive-test-10
+Feature: FEATURE_004 - Form submission success state
+
+=== RUNNING CLAUDE ===
+FEATURE_004 built. The lead form now shows a thank-you confirmation panel (with reset + "send another request" affordance) on valid submission; invalid submissions still surface field errors and never reach the success state. `next build` passes.
+
+One thing worth flagging: the prior `Build FEATURE_001/003` commits only edited state JSON — they never modified `src/`. The page was still the create-next-app template, so I had to scaffold the landing page and form along with the success state. Details in `.ai-build/last_build_report.md`.

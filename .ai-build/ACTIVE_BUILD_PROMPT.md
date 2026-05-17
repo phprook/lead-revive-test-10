@@ -7,31 +7,28 @@ IMPORTANT RULES:
 - Do not build future roadmap items.
 - Do not add backend, database, auth, CRM, email, or paid services unless explicitly required by the current feature.
 - Keep the implementation simple.
-- After coding, run npm run build.
-- If tests exist, run them.
-- Commit changes to git.
+- After coding, write a short build report to .ai-build/last_build_report.md.
 
 PROJECT NAME: lead-revive-test-10
 PROJECT IDEA: Build a simple real estate lead follow-up landing page with a headline, short explanation, lead form, and clear call to action
 
 CURRENT FEATURE:
 {
-  "id": "FEATURE_003",
-  "name": "Client-side form validation",
-  "goal": "Prevent unusable form submissions with simple browser-side validation.",
+  "id": "FEATURE_004",
+  "name": "Form submission success state",
+  "goal": "Show a clear confirmation after a valid form submission.",
   "done_when": [
-    "Full name is required",
-    "At least one contact method is required: email or phone",
-    "Email format is validated when email is entered",
-    "Interest type is required",
-    "Helpful error messages appear near the form",
-    "Invalid submissions do not show the success state"
+    "Valid form submission shows a thank-you message",
+    "Success message confirms that follow-up will happen soon",
+    "Form is either hidden or reset after successful submission",
+    "No backend request is made",
+    "The visitor understands the next step"
   ],
   "do_not_do": [
-    "Do not add server-side validation",
-    "Do not add database storage",
-    "Do not add CAPTCHA",
-    "Do not add complex validation libraries unless already present"
+    "Do not save submissions permanently",
+    "Do not send emails",
+    "Do not integrate with CRM",
+    "Do not add admin review screens"
   ],
   "status": "pending"
 }
@@ -96,7 +93,7 @@ FULL ROADMAP:
       "Do not add CAPTCHA",
       "Do not add complex validation libraries unless already present"
     ],
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": "FEATURE_004",
@@ -156,10 +153,3 @@ FULL ROADMAP:
     "status": "pending"
   }
 ]
-
-When finished, create .ai-build/last_build_report.md with:
-- Summary
-- Files changed
-- Tests/build run
-- Result
-- Next recommendation
