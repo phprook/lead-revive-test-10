@@ -16,22 +16,22 @@ PROJECT IDEA: Build a simple real estate lead follow-up landing page with a head
 
 CURRENT FEATURE:
 {
-  "id": "FEATURE_001",
-  "name": "Basic landing page structure",
-  "goal": "Create the first public landing page with a clear real estate lead follow-up message.",
+  "id": "FEATURE_003",
+  "name": "Client-side form validation",
+  "goal": "Prevent unusable form submissions with simple browser-side validation.",
   "done_when": [
-    "Homepage loads at /",
-    "Page includes a clear headline",
-    "Page includes a short explanation of the offer",
-    "Page includes a visible call-to-action area",
-    "Layout is usable on desktop and mobile"
+    "Full name is required",
+    "At least one contact method is required: email or phone",
+    "Email format is validated when email is entered",
+    "Interest type is required",
+    "Helpful error messages appear near the form",
+    "Invalid submissions do not show the success state"
   ],
   "do_not_do": [
-    "Do not add form validation yet",
-    "Do not add backend storage",
-    "Do not add authentication",
-    "Do not add property listings",
-    "Do not add CRM or email integrations"
+    "Do not add server-side validation",
+    "Do not add database storage",
+    "Do not add CAPTCHA",
+    "Do not add complex validation libraries unless already present"
   ],
   "status": "pending"
 }
@@ -56,7 +56,7 @@ FULL ROADMAP:
       "Do not add property listings",
       "Do not add CRM or email integrations"
     ],
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": "FEATURE_002",
@@ -76,7 +76,7 @@ FULL ROADMAP:
       "Do not add email notifications",
       "Do not add advanced validation beyond basic field structure"
     ],
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": "FEATURE_003",
