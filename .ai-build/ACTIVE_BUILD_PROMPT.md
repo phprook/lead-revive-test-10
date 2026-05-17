@@ -14,22 +14,20 @@ PROJECT IDEA: Build a simple real estate lead follow-up landing page with a head
 
 CURRENT FEATURE:
 {
-  "id": "FEATURE_005",
-  "name": "Trust and conversion enhancements",
-  "goal": "Improve visitor confidence and make the landing page more persuasive without adding complexity.",
+  "id": "FEATURE_006",
+  "name": "Basic SEO and metadata",
+  "goal": "Add basic page metadata so the landing page is polished and shareable.",
   "done_when": [
-    "Page includes 2 to 3 short benefit bullets",
-    "Page includes a no-pressure reassurance message",
-    "Page includes a privacy reassurance near the form",
-    "Content remains concise and focused on the lead form",
-    "Mobile layout remains clean"
+    "Page has a relevant title",
+    "Page has a concise meta description",
+    "Metadata matches the landing page purpose",
+    "No unnecessary SEO tooling is added"
   ],
   "do_not_do": [
-    "Do not add testimonials unless real approved copy is provided",
-    "Do not add fake reviews",
-    "Do not add property search",
-    "Do not add multiple pages",
-    "Do not make the page feel like a full real estate website"
+    "Do not add a blog",
+    "Do not add advanced analytics",
+    "Do not add sitemap automation unless already available",
+    "Do not add schema markup unless specifically approved"
   ],
   "status": "pending"
 }
@@ -133,7 +131,7 @@ FULL ROADMAP:
       "Do not add multiple pages",
       "Do not make the page feel like a full real estate website"
     ],
-    "status": "pending"
+    "status": "completed"
   },
   {
     "id": "FEATURE_006",

@@ -1,0 +1,6 @@
+Active feature log created: /home/ubuntu/ai-builds/lead-revive-test-10/.ai-build/logs/active-feature-20260517154317.log
+Project: lead-revive-test-10
+Feature: FEATURE_006 - Basic SEO and metadata
+
+=== RUNNING CLAUDE ===
+FEATURE_006 built. Updated `src/app/layout.tsx` so the root `metadata` export now uses a relevant title ("Thinking about your next move? | Real Estate Lead Follow-Up") and a concise description matching the landing page's purpose. No new SEO tooling, sitemap, analytics, or schema markup added. TypeScript check passes; build report written to `.ai-build/last_build_report.md`.

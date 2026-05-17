@@ -1,9 +1,9 @@
 {
   "projectName": "lead-revive-test-10",
-  "featureId": "FEATURE_005",
-  "featureName": "Trust and conversion enhancements",
-  "pid": 73360,
-  "logFile": "/home/ubuntu/ai-builds/lead-revive-test-10/.ai-build/logs/active-feature-20260517152910.log",
-  "startedAt": "2026-05-17T15:29:10.702Z",
+  "featureId": "FEATURE_006",
+  "featureName": "Basic SEO and metadata",
+  "pid": 73825,
+  "logFile": "/home/ubuntu/ai-builds/lead-revive-test-10/.ai-build/logs/active-feature-20260517154317.log",
+  "startedAt": "2026-05-17T15:43:17.180Z",
   "status": "running"
 }
